@@ -22,11 +22,28 @@ The main tenets of OOP are: **reusability** and **modularity**. OOP stands on 4 
 3. :red_circle: :large_blue_circle: :large_blue_diamond: **Polymorphism** Child objects are able to run code defined in parent classes. Also, child can overload or override a property/method defined in parent.
 4. :icecream: **Generics** (**Data abstraction**) To reduce code duplication, behaviours are defined via interfaces and abstract classes which are then base for concrete class implementations.
 
+closely associate bahaviours with data
 
 ## Why not? :bangbang:
 OOP is not centered around efficiency of computation and algorithms. The overhead of the object creation and inheritance links between classes may negatively impact the performance. Developers often find themselves writing bloated files to solve simple problems. In general, OOP encourages thickly layered programs that destroy transparency.
 
 ## Perfect use scenario
+Use OOP when you need to:
+- [ ] closely associate bahaviours with data
+- [ ] organize code into units
+
+Adhering to functional programming means organizing code into functions, the data is immutable, which leads to writing programs with no side effects.  In functional code, a function is not able to change the outside world, and the output value depends only on the given arguments. This allows to keep strong control over the program flow. Examples of functional programming languages are:  Scala, F#, Wolfram Language, Lisp, Standard ML, DAML and Clojure.
+- [ ] Avoid statefulness
+- [ ] Avoid side effect
+Use cases:
+- [ ] **Industrial apps** :factory:
+- [ ] **finance apps for risk analytics** :dollar:
+- [ ] Fault-tolerant :tick: systems where performance :fast_forward: is the :key:
+
+Event-driven programming use cases:
+- [ ] web applications centered around responsing to (user's) actions
+- [ ] device drivers
+
 Javascript projects are written using a functional, or event-driven design pattern. In which cases would an OOP pattern be a better choice?
 
 For this task, write a few paragraphs describing a project that would benefit greatly from an OOP structure. (This could be any kind of application, running on any type of system). 
