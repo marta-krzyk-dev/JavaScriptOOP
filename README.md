@@ -32,14 +32,14 @@ OOP is not centered around efficiency of computation and algorithms. The overhea
 ### Functional programming
 Adhering to functional programming means organizing code into functions and keeping data immutable (data is copied, no modified). This leads to writing programs with no side effects (what happens inside of functional, stays inside the function :sunglasses:). In functional code, a function is not able to change the outside world (the state of the object or system), and the output value is fully deterministic (always the same for the same input) and depends only on the given arguments. System remains **stateless**. This allows to keep strong control over the program flow. Examples of functional programming languages are:  Scala, F#, Wolfram Language, Lisp, Standard ML, DAML and Clojure.
 
-Pros :happy:
+Pros :smiley:
 - Avoid statefulness
 - Avoid side effect
 
 Use cases :bulb:
 - **Industrial apps** :factory:
 - **finance apps for risk analytics** :bar_chart: :moneybag: :bank:
-- Fault-tolerant :tick: systems where performance :fast_forward: is the :key:
+- Fault-tolerant :white_check_mark: systems where performance :fast_forward: is the :key:
 
 ### Event-driven programming
 The flow of the program is determined by events such as user actions (mouse clicks, key presses), sensor outputs, or messages from other programs or threads. Usually, there exists a main loop, a listener :ear:, that triggers callback functions in response to specific events occurring. 
