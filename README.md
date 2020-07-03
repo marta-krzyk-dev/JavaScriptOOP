@@ -1,14 +1,24 @@
-# JavaScript and Object-oriented programming
+# JavaScript and Object-oriented programming :frog:
 How and when to use OOP in JavaScript?
 
 ## What?
 Object oriented programming is a paradigm that tries to reflect real-world problems in form of objects that hold **properties** and **methods**. 
-The access to the properties and methods is limited. Properties and methods are valid in the context of an object, that means that they describe
+The access :lock: to the properties and methods is limited. Properties and methods are valid in the context of an object, that means that they describe
 the features and bahaviour of a specific object. Other names for propetry is field, attribute. Methods are also reffered as procedures or functions.
 
 Objects have a notion of selfness, usually noted with keyword `this` or `self`.
+Methods are able to access properties via `this` or `self` and modify them.
+
+A template for an object is called a **class**. Classes provide initial state for objects (values for properties and behaviours implemented in methods).
+Class works like a cookie-cutter and the result is an instance of a class (object).
+
+Examples are OOP languages are: Java, C++, C#, Python, R, PHP, JavaScript, Ruby, Perl, Objective-C, Dart, Swift, Scala, Kotlin, Common Lisp, MATLAB, and Smalltalk.
 
 ## Why?
+The main tenets of OOP are: **reusability** and **modularity**.
+
+## Why not?
+OOP is not centered around efficiency of computation and algorithms. The overhead of the object creation and inheritance links between classes may negatively impact the performance. Developers often find themselves writing bloated files to solve simple problems. In general, OOP encourages thickly layered programs that destroy transparency.
 
 ## Perfect use scenario
 Javascript projects are written using a functional, or event-driven design pattern. In which cases would an OOP pattern be a better choice?
