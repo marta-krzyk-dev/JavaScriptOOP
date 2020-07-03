@@ -24,13 +24,18 @@ The main tenets of OOP are: **reusability** and **modularity**. OOP stands on 4 
 
 closely associate bahaviours with data
 
-## Why not? :bangbang:
+## Why not? :pouting_cat:
 OOP is not centered around efficiency of computation and algorithms. The overhead of the object creation and inheritance links between classes may negatively impact the performance. Developers often find themselves writing bloated files to solve simple problems. In general, OOP encourages thickly layered programs that destroy transparency.
 
 ## Perfect use scenario
+Javascript projects are written using a functional, or event-driven design pattern. In which cases would an OOP pattern be a better choice?
+
 Use OOP when you need to:
 - [ ] closely associate bahaviours with data
 - [ ] organize code into units
+- [ ] present data from database, carry out CRUD* operations on the data, it's usually done ORM ()
+
+* CRUD - 
 
 Adhering to functional programming means organizing code into functions, the data is immutable, which leads to writing programs with no side effects.  In functional code, a function is not able to change the outside world, and the output value depends only on the given arguments. This allows to keep strong control over the program flow. Examples of functional programming languages are:  Scala, F#, Wolfram Language, Lisp, Standard ML, DAML and Clojure.
 - [ ] Avoid statefulness
@@ -40,11 +45,14 @@ Use cases:
 - [ ] **finance apps for risk analytics** :dollar:
 - [ ] Fault-tolerant :tick: systems where performance :fast_forward: is the :key:
 
+### Event-driven programming
+The flow of the program is determined by events such as user actions (mouse clicks, key presses), sensor outputs, or messages from other programs or threads. Usually, there exists a main loop, a listener, that triggers callback functions in response to specific events occurring. 
+
 Event-driven programming use cases:
 - [ ] web applications centered around responsing to (user's) actions
 - [ ] device drivers
 
-Javascript projects are written using a functional, or event-driven design pattern. In which cases would an OOP pattern be a better choice?
+
 
 For this task, write a few paragraphs describing a project that would benefit greatly from an OOP structure. (This could be any kind of application, running on any type of system). 
 
