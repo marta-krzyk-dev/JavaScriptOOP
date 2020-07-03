@@ -1,4 +1,4 @@
-# JavaScript and Object-oriented programming :frog:
+# JavaScript :watermelon: and Object-oriented programming :frog:
 How and when to use OOP in JavaScript?
 
 ## What? :open_mouth:
