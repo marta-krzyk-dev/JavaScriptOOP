@@ -51,7 +51,7 @@ Pros :sunflower:
 Use cases:
 - web applications centered around responsing to (user's) actions
 - device drivers :rocket:
-- GUI-centered apps :firework:
+- GUI-centered apps :fireworks:
 
 
 ## Perfect use scenario
@@ -94,4 +94,4 @@ The diagram below shows 3 classes: Game, Player, QuestionSet. The relations betw
 A game consists in parent-child relation with many Players and QuestionSets.
 You can also see fields and methods available in the classes.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/marta-krzyk-dev/JavaScriptOOP/blob/master/QuizDiagram.png?raw=true)
