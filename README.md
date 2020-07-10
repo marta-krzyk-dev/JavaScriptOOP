@@ -12,7 +12,17 @@ Properties and methods are valid in the context of an object, that means that th
 the features and bahaviours of a specific object. In the vast ocean of OOP languages property may be called a field, attribute. Methods are also reffered as procedures or functions. The access :lock: to the properties and methods is limited via keywords: **public**, **protected**, **private**. 
 
 Objects have a notion of selfness, usually noted with keyword `this` or `self`.
-Methods are able to access properties via `this` or `self` and modify them. Methods can be invoked the same way. 
+Methods are able to access properties via `this` or `self` and modify them. Methods can be invoked the same way. In some languages the keyword may be omitted in most cases while coding the guts of a class, eg. in C#:
+
+public class Frog {
+  private string sound = "Riiiibbet!";
+  public void Ribbet()
+  {
+      Console.WriteLine(this.sound);
+  }
+}
+
+In Python `this` is obligatory.
 
 A template for an object is called a **class**. Classes provide initial state for objects (default values for properties and behaviours implemented in methods).
 Class works like a cookie-cutter and the result is an instance of a class (object).
