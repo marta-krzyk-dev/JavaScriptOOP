@@ -1,9 +1,9 @@
 
-# JS and OOP - a fling or a thing? :heart:
+# JS and OOP - a fling or a thing? :heart: w
 # JavaScript :watermelon: and Object-oriented programming :frog:
 When I think of JavaScript and its applications, OOP is not the first thing that comes into my mind.
 JavaScript does not impose an object-oriented paradigm on its own, however, it's flexible so you can apply the paragidm when you see fit.
-As the language has broadened its usage outside of web development, an example being popular Node JS, more OOP features/sugar syntax started appearing in the new JS standards. Another indicator of this is the emerging of TypeScript, a superset of JS prepared by Microsoft. 
+As the language has broadened its usage outside of web development, an example being popular Node JS, more OOP features/sugar syntax started appearing in the new JS standards. Another indicator of this is the emerging of TypeScript, a superset of JS prepared by Microsoft with support for: classes, namespaces, modules, static typing, generics. 
 
 In this short overview I'm going to answer the question: How, why and when to use OOP in JavaScript?
 
@@ -12,7 +12,7 @@ Quick brush-up.
 
 Object oriented programming is a paradigm that tries to reflect real-world problems by creating objects holding **properties** and **methods**. 
 Properties and methods are valid in the context of an object, that means that they describe
-the features and bahaviours of a specific object. In the vast ocean of OOP languages property may be called a field, attribute. Methods are also reffered as procedures or functions. The access :lock: to the properties and methods is limited via keywords: **public**, **protected**, **private**. 
+the features and bahaviors of a specific object. In the vast ocean of OOP languages property may be called a field, attribute. Methods are also reffered as procedures or functions. The access :lock: to the properties and methods is limited via keywords: **public**, **protected**, **private**. 
 
 Objects have a notion of selfness, usually noted with keyword `this` or `self`.
 Methods are able to access properties via `this` or `self` and modify them. Methods can be invoked the same way. In some languages the keyword may be omitted in most cases while coding the guts of a class, eg. in C#:
@@ -32,6 +32,8 @@ Class works like a cookie-cutter and the result is an instance of a class (objec
 
 Examples are OOP languages are: Java :volcano:, C++, C#, Python :snake:, R, PHP, JavaScript, Ruby :gem:, Perl, Objective-C, Dart, Swift, Scala, Kotlin, Common Lisp, MATLAB, and Smalltalk.
 
+Pure (aka Perfect) OOP languages: Ruby
+
 ## Why? :smile:
 The main tenets of OOP are: **reusability** and **modularity** :1+:. OOP stands on 4 pillars:
 
@@ -40,13 +42,16 @@ The main tenets of OOP are: **reusability** and **modularity** :1+:. OOP stands 
 3. :red_circle: :large_blue_circle: :large_blue_diamond: **Polymorphism** Child objects are able to run code defined in parent classes. Also, child can overload or override a property/method defined in parent.
 4. :icecream: **Generics** (**Data abstraction**) To reduce code duplication, behaviours are defined via interfaces and abstract classes which are then base for concrete class implementations.
 
-If I had to squeeze the essence of the paradigm into one sentence it would be: OOP closely associates bahaviours with data.
+If I had to squeeze the essence of the paradigm into one sentence it would be: OOP closely associates bahaviours with data. That reflects how human store the data about the world: they associate objects (frog) with features (green, humid) and behaviors (jumps, goes "ribbet ribbet"). That helps programmer viewing a particular problem with OOP lenses and translate it into a computer program.
 
 
 ## Why not? :pouting_cat:
 But wait! If OOP is generally accepted as the most popular method of programming (at the moment), doesn't it mean it's the best?
 As you may already suspect, one solution doesn't fit all. With all the advantages of OOP, it is far away from perfection.
 OOP sets your mindset on a specific track. It will take you places, but not everywhere.
+
+Why did the paradigm reach the peak of popularity?
+
 
 As was already mentioned, OOP is to reflect real world to ease development for human. The abstraction introduced is totally unnecessary for machines themselves. It is for the programmer to enforce rules into projects that oterwise would be hard to keep track of.  
 OOP is not centered around efficiency of computation and algorithms. The overhead of the object creation and inheritance links between classes may negatively impact the performance. Developers often find themselves writing bloated files to solve simple problems. In general, OOP encourages thickly layered programs that destroy :boom: transparency.
