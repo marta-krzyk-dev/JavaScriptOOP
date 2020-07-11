@@ -2,10 +2,10 @@
 # JS and OOP - a fling or a thing? :heart:
 # JavaScript :watermelon: and Object-oriented programming :frog:
 When I think of JavaScript and its applications, OOP is not the first thing that comes into my mind.
-JavaScript does not impose an object-oriented paradigm on its own, it's flexible so you can apply the paragidm when you see fit.
-As the language broadens its usage outside of web development, an example being Node JS, more OOP features started appearing in new standards. The emerging of TypeScript is also an indicator of this. 
+JavaScript does not impose an object-oriented paradigm on its own, however, it's flexible so you can apply the paragidm when you see fit.
+As the language has broadened its usage outside of web development, an example being popular Node JS, more OOP features/sugar syntax started appearing in the new JS standards. Another indicator of this is the emerging of TypeScript, a superset of JS prepared by Microsoft. 
 
-In this short overview I'm going to answer the question: How and when to use OOP in JavaScript?
+In this short overview I'm going to answer the question: How, why and when to use OOP in JavaScript?
 
 ## What? :open_mouth:
 Quick brush-up.
