@@ -1,6 +1,9 @@
+
+# JS and OOP - a fling or a thing? :heart:
 # JavaScript :watermelon: and Object-oriented programming :frog:
 When I think of JavaScript and its applications, OOP is not the first thing that comes into my mind.
 JavaScript does not impose an object-oriented paradigm on its own, it's flexible so you can apply the paragidm when you see fit.
+As the language broadens its usage outside of web development, an example being Node JS, more OOP features started appearing in new standards. The emerging of TypeScript is also an indicator of this. 
 
 In this short overview I'm going to answer the question: How and when to use OOP in JavaScript?
 
@@ -39,8 +42,9 @@ The main tenets of OOP are: **reusability** and **modularity** :1+:. OOP stands 
 
 If I had to squeeze the essence of the paradigm into one sentence it would be: OOP closely associates bahaviours with data.
 
+
 ## Why not? :pouting_cat:
-But wait! If OOP is generally accepted as the most popular method of programming, doesn't it mean it's the best?
+But wait! If OOP is generally accepted as the most popular method of programming (at the moment), doesn't it mean it's the best?
 As you may already suspect, one solution doesn't fit all. With all the advantages of OOP, it is far away from perfection.
 OOP sets your mindset on a specific track. It will take you places, but not everywhere.
 
