@@ -1,9 +1,9 @@
 
-# JS and OOP - a fling or a thing? :heart: w
+# JS and OOP - a fling or a thing? :heart:
 # JavaScript :watermelon: and Object-oriented programming :frog:
 When I think of JavaScript and its applications, OOP is not the first thing that comes into my mind.
 JavaScript does not impose an object-oriented paradigm on its own, however, it's flexible so you can apply the paragidm when you see fit.
-As the language has broadened its usage outside of web development, an example being popular Node JS, more OOP features/sugar syntax started appearing in the new JS standards. Another indicator of this is the emerging of TypeScript, a superset of JS prepared by Microsoft with support for: classes, namespaces, modules, static typing, generics. 
+As the language has broadened its usage outside of web development, an example being popular Node JS, more OOP features/sugar syntax started appearing in the new JS standards. Another indicator of this is the emerging of TypeScript, a superset of JS prepared by Microsoft with support for OOP features: classes, namespaces, modules, static typing, generics. 
 
 In this short overview I'm going to answer the question: How, why and when to use OOP in JavaScript?
 
@@ -35,6 +35,10 @@ Examples are OOP languages are: Java :volcano:, C++, C#, Python :snake:, R, PHP,
 Pure (aka Perfect) OOP languages: Ruby
 
 ## Why? :smile:
+
+Squeezing the essence of the OOP paradigm into one sentence: OOP closely associates bahaviours with data.
+Think how a human stores information about the world in their brain: objects (frog) are associated with features (green, humid, amphibian) and behaviors (jumps, eats flies, goes "ribbet ribbet"). That helps programmer viewing a particular problem with OOP lenses and translate it into a computer program.
+
 The main tenets of OOP are: **reusability** and **modularity** :1+:. OOP stands on 4 pillars:
 
 1. :pill: **Encapsulation** - Developer decides which parts of a class are hidden from the "outside world" and which are accessible. :box: It is usually implemented with keywords: `public`, `private` and `protected`.
@@ -42,7 +46,7 @@ The main tenets of OOP are: **reusability** and **modularity** :1+:. OOP stands 
 3. :red_circle: :large_blue_circle: :large_blue_diamond: **Polymorphism** Child objects are able to run code defined in parent classes. Also, child can overload or override a property/method defined in parent.
 4. :icecream: **Generics** (**Data abstraction**) To reduce code duplication, behaviours are defined via interfaces and abstract classes which are then base for concrete class implementations.
 
-If I had to squeeze the essence of the paradigm into one sentence it would be: OOP closely associates bahaviours with data. That reflects how human store the data about the world: they associate objects (frog) with features (green, humid) and behaviors (jumps, goes "ribbet ribbet"). That helps programmer viewing a particular problem with OOP lenses and translate it into a computer program.
+
 
 
 ## Why not? :pouting_cat:
