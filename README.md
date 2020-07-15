@@ -12,18 +12,18 @@ Quick brush-up.
 
 Object oriented programming is a paradigm that tries to reflect real-world problems by creating objects holding **properties** and **methods**. 
 Properties and methods are valid in the context of an object, that means that they describe
-the features and bahaviors of a specific object. In the vast ocean of OOP languages property may be called a field, attribute. Methods are also reffered as procedures or functions. The access :lock: to the properties and methods is limited via keywords: **public**, **protected**, **private**. 
+the features and bahaviors of a specific object. In the vast ocean of OOP languages property may be called a field, attribute; methods are reffered as procedures or functions. The access :lock: to the properties and methods is limited via keywords: **public**, **protected**, **private**. 
 
 Objects have a notion of selfness, usually noted with keyword `this` or `self`.
 Methods are able to access properties via `this` or `self` and modify them. Methods can be invoked the same way. In some languages the keyword may be omitted in most cases while coding the guts of a class, eg. in C#:
 
-public class Frog {
+ `public class Frog {
   private string sound = "Riiiibbet!";
   public void Ribbet()
   {
       Console.WriteLine(this.sound);
   }
-}
+}`
 
 In Python `this` is obligatory.
 
@@ -33,6 +33,8 @@ Class works like a cookie-cutter and the result is an instance of a class (objec
 Examples are OOP languages are: Java :volcano:, C++, C#, Python :snake:, R, PHP, JavaScript, Ruby :gem:, Perl, Objective-C, Dart, Swift, Scala, Kotlin, Common Lisp, MATLAB, and Smalltalk.
 
 Pure (aka Perfect) OOP languages: Ruby
+Strongly OOP: C++, C#, Objective-C
+Supporting OOP: Python, JavaScript
 
 ## Why? :smile:
 
